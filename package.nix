@@ -1,6 +1,5 @@
 { ps-pkgs, ps-pkgs-ns, ... }:
-with ps-pkgs;
-with ps-pkgs-ns;
+with ps-pkgs-ns.lovelaceAcademy;
 {
   dependencies = [
     aff
@@ -31,7 +30,7 @@ with ps-pkgs-ns;
     prelude
     quickcheck
     record
-    lovelaceAcademy.sequences
+    sequences
     spec
     strings
     transformers
