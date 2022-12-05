@@ -1,5 +1,5 @@
-{ ps-pkgs, ps-pkgs-ns, ... }:
-with ps-pkgs-ns.lovelaceAcademy;
+{ ps-pkgs, ... }:
+with ps-pkgs;
 {
   dependencies = [
     aff
